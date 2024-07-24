@@ -1,0 +1,101 @@
+react is js library
+for building user interface
+single page application(page will not refresh)
+crete user interface form components
+
+react use virtual DOM
+
+
+why?
+
+maintained by fb
+faster and eassier
+
+website using react -> fb , pinterest, netflix, uber, discord
+
+
+npm - install in system 
+npx - install in folder
+
+how many type of running project
+1. terminal
+2. add - cmd:c:/user/bin/
+
+package.json - package dependencies list
+
+package.lock.json - package dependencies version list or details
+
+node-modules - package folder
+
+ readme - working details
+
+
+react work with 4 type of files
+.js
+.jsx 
+.ts 
+.tsx
+
+
+projects run on port [ex. 3000]
+
+components - 
+1. class components 
+2. functional components
+
+export type -
+name export  ex {Header}
+default export  ex Header
+
+
+add bootstrap 
+command - npm i bootstrap
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+
+npm i react-bootstrap
+
+
+REACTIVE BOOTSTRAP (REACT JS)
+
+components based tag
+[Container]
+
+-----------------props---------------
+
+parent ka data child components tak pochana 
+custom attribute can create
+also can pass object to the props
+
+---------------------using children props--------------------
+
+parent me  child add kar sacte h 
+ex  <Header name="kopal">
+        <h1>hello world</h1>
+    </Header>
+
+
+-------------------------+-----------------------
+how to pass object to child component?
+
+
+------------------------------use state -----------
+
+varibale ki value ko chane karta h + update karta hai.
+
+let  [count , setCount] = useState(1)
+    state    stateFunction  =  stateUpdation
+
+state Management ka use karke ham data ko rerender karwa sacte hai.
+
+
+<!-- ----------- KEY PROPS---------------------->
+
+div or item or component ko loop me itreate karne ke liye key props ka use kare
+
+key={i}
+
+
+<!--  -----------react router----------- -->
+ Routing is a process of binding a web URL to a specific resource in the web application.
+npm i react-router-dom
